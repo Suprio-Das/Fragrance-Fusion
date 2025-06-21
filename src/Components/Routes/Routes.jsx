@@ -6,3 +6,5 @@ const router = createBrowserRouter([
         element: <h1>Router Setup!</h1>
     }
 ])
+
+export default router;

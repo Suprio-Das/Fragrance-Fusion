@@ -1,9 +1,16 @@
 import { createBrowserRouter } from "react-router";
+import Main from "../Main/Main";
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <h1>Router Setup!</h1>
+        element: <Main></Main>,
+        children: [
+            {
+                path: '/',
+                element: <h1>This is home.</h1>
+            }
+        ]
     }
 ])
 

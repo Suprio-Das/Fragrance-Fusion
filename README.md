@@ -8,3 +8,4 @@
 - Buy Now
 - Payment Method
 - User Profile
+- Admin Profile 

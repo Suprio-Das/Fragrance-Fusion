@@ -6,3 +6,4 @@
 - Perfume Details
 - Add To Cart 
 - Buy Now
+- Payment Method

@@ -11,3 +11,4 @@
 - Admin Profile 
 - - Product Add
 - - Product Update
+- - Product Delete

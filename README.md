@@ -7,3 +7,4 @@
 - Add To Cart 
 - Buy Now
 - Payment Method
+- User Profile

@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import Logo from '../../assets/fragrance_fusion.png';
 
 const Navbar = () => {
@@ -13,15 +13,15 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
+                            <li><NavLink>Home</NavLink></li>
                             <li>
-                                <a>Parent</a>
+                                <NavLink>Perfumes</NavLink>
                                 <ul className="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
+                                    <li><NavLink>Mens</NavLink></li>
+                                    <li><NavLink>Womens</NavLink></li>
                                 </ul>
                             </li>
-                            <li><a>Item 3</a></li>
+                            <li><NavLink>Brands</NavLink></li>
                         </ul>
                     </div>
                     <Link className="btn btn-ghost text-xl">

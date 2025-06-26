@@ -1,5 +1,6 @@
 import { Link, NavLink } from 'react-router';
 import Logo from '../../assets/fragrance_fusion.png';
+import Profile from '../../assets/profile.png';
 
 const Navbar = () => {
     return (
@@ -44,7 +45,26 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn">Button</a>
+                    <div className="dropdown dropdown-end">
+                        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                            <div className="w-10 rounded-full">
+                                <img
+                                    alt="Default Profile Icon"
+                                    src={Profile} />
+                            </div>
+                        </div>
+                        <ul
+                            tabIndex={0}
+                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                            <li>
+                                <NavLink className="justify-between">
+                                    Profile
+                                </NavLink>
+                            </li>
+                            <li><NavLink>Settings</NavLink></li>
+                            <li><NavLink>Logout</NavLink></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

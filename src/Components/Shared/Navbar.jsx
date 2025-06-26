@@ -61,7 +61,7 @@ const Navbar = () => {
                                     Profile
                                 </NavLink>
                             </li>
-                            <li><NavLink>Settings</NavLink></li>
+                            <li><NavLink>My Cart</NavLink></li>
                             <li><NavLink>Logout</NavLink></li>
                         </ul>
                     </div>

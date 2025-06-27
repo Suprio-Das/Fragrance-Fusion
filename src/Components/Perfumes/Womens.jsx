@@ -1,4 +1,4 @@
-const Womans = () => {
+const Womens = () => {
     return (
         <div>
             This is Womens section.
@@ -6,4 +6,4 @@ const Womans = () => {
     );
 };
 
-export default Womans;
+export default Womens;

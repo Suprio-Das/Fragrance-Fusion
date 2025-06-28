@@ -36,8 +36,8 @@ const Navbar = () => {
                             <details>
                                 <summary>Perfumes</summary>
                                 <ul className="p-2">
-                                    <li to='/mens'><NavLink>Mens</NavLink></li>
-                                    <li to='/womans'><NavLink>Womens</NavLink></li>
+                                    <li><NavLink to='/mens'>Mens</NavLink></li>
+                                    <li><NavLink to='/womens'>Womens</NavLink></li>
                                 </ul>
                             </details>
                         </li>

@@ -14,15 +14,15 @@ const Navbar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><NavLink>Home</NavLink></li>
+                            <li><NavLink to='/'>Home</NavLink></li>
                             <li>
                                 <NavLink>Perfumes</NavLink>
                                 <ul className="p-2">
-                                    <li><NavLink>Mens</NavLink></li>
-                                    <li><NavLink>Womens</NavLink></li>
+                                    <li><NavLink to='/mens'>Mens</NavLink></li>
+                                    <li><NavLink to='/womens'>Womens</NavLink></li>
                                 </ul>
                             </li>
-                            <li><NavLink>Brands</NavLink></li>
+                            <li><NavLink to='/brands'>Brands</NavLink></li>
                         </ul>
                     </div>
                     <Link className="btn btn-ghost text-xl">

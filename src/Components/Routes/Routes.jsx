@@ -3,6 +3,7 @@ import Main from "../Main/Main";
 import Home from "../Home/Home";
 import Mens from "../Perfumes/Mens";
 import Womens from "../Perfumes/Womens";
+import Brands from "../Brands/Brands";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: '/womens',
                 element: <Womens></Womens>
+            },
+            {
+                path: '/brands',
+                element: <Brands></Brands>
             }
         ]
     }

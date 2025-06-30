@@ -9,6 +9,7 @@ A zone for Mens and Womens Perfumes.
 - Payment Method
 - User Profile
 - - View Orders
+- - Update Profile
 - Admin Profile 
 - - Product Add
 - - Product Update

@@ -1,5 +1,5 @@
 # Fragrance Fusion
-### An Online Perfume Shop.
+A zone for Mens and Womens Perfumes.
 
 ### Possible Features
 - Men and Women Perfumes

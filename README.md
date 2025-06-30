@@ -8,6 +8,7 @@ A zone for Mens and Womens Perfumes.
 - Buy Now
 - Payment Method
 - User Profile
+- - View Orders
 - Admin Profile 
 - - Product Add
 - - Product Update

@@ -14,3 +14,9 @@
     background-color: black;
     color: white;
 }
+
+.primary-btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}

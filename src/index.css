@@ -1,2 +1,10 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+/* Hero Banner Styles */
+.hero {
+    background-image: url('../src/assets/header.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

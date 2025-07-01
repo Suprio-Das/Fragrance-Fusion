@@ -8,3 +8,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Primary Button */
+.primary-btn {
+    background-color: black;
+    color: white;
+}

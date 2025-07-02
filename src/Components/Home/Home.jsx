@@ -8,7 +8,7 @@ const Home = () => {
             </header>
             {/* Top Products */}
             <section className="my-11">
-                <h1>This is Top Products Section.</h1>
+                <h1 className="text-2xl uppercase text-center">Client Selected</h1>
             </section>
         </div>
     );

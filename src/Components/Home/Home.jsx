@@ -6,6 +6,10 @@ const Home = () => {
                 <p className="text-xl mt-2">Elegance in Every Drop.</p>
                 <button className="primary-btn btn mt-3">Shop Now</button>
             </header>
+            {/* Top Products */}
+            <section className="my-11">
+                <h1>This is Top Products Section.</h1>
+            </section>
         </div>
     );
 };

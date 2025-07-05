@@ -48,7 +48,7 @@ const Navbar = () => {
                 <div className="navbar-end">
                     <ul>
                         <li>
-                            <FaShoppingCart className='text-2xl mr-3' />
+                            <FaShoppingCart className='text-2xl mr-3 cursor-pointer' />
                         </li>
                     </ul>
                     <div className="dropdown dropdown-end">

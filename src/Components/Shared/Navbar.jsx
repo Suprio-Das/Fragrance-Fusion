@@ -1,6 +1,7 @@
 import { Link, NavLink } from 'react-router';
 import Logo from '../../assets/fragrance_fusion.png';
 import Profile from '../../assets/profile.png';
+import { FaShoppingCart } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -45,6 +46,11 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+                    <ul>
+                        <li>
+                            <FaShoppingCart className='text-xl' />
+                        </li>
+                    </ul>
                     <div className="dropdown dropdown-end">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">

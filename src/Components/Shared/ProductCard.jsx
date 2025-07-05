@@ -1,7 +1,12 @@
 const ProductCard = () => {
     return (
         <div>
-            <h1>This is Product Card.</h1>
+            {/* Product Image */}
+            <div>
+                <div className="border-1">
+                    <img src='https://8ded8880.delivery.rocketcdn.me/themes/cosmecos-new/wp-content/uploads/2021/01/img_2-3-545x654.jpg' alt="" className="w-72" />
+                </div>
+            </div>
         </div>
     );
 };

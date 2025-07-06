@@ -18,6 +18,7 @@ const ProductCard = () => {
                     <img src='https://8ded8880.delivery.rocketcdn.me/themes/cosmecos-new/wp-content/uploads/2021/01/img_2-3-545x654.jpg' alt="" className="w-72 product_img" />
                 </div>
             </div>
+            <h1 className="text-xl text-center my-2">Vampire Blood</h1>
         </div>
     );
 };

@@ -24,3 +24,4 @@ A zone for Mens and Womens Perfumes.
 2. DaisyUI
 3. Javascript
 4. React
+5. React Router

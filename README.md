@@ -25,3 +25,4 @@ A zone for Mens and Womens Perfumes.
 3. Javascript
 4. React
 5. React Router
+6. React Icons

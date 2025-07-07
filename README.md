@@ -18,3 +18,6 @@ A zone for Mens and Womens Perfumes.
 - - Delivery Status
 - - Delivered Product
 - - Monthly Income
+
+### Technologies
+1. Tailwind CSS

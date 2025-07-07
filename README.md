@@ -21,3 +21,6 @@ A zone for Mens and Womens Perfumes.
 
 ### Technologies
 1. Tailwind CSS
+2. DaisyUI
+3. Javascript
+4. React

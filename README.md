@@ -1,5 +1,5 @@
 # Fragrance Fusion
-A zone for Mens and Womens Perfumes.
+An Online Perfumes Shopping Zone for Mens and Womens, where users can purchase perfumes items online. Save the favourite products, add to cart option.
 
 ### Possible Features
 - Men and Women Perfumes

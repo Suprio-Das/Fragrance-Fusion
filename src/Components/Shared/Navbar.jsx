@@ -49,7 +49,7 @@ const Navbar = () => {
                     <ul>
                         <li>
                             <FaShoppingCart className='text-2xl mr-3 cursor-pointer relative' />
-                            <span className='absolute -top-1 -right-2 bg-amber-400 w-5 h-5 flex justify-center items-center rounded-full'>2</span>
+                            {/* <span className='absolute -top-1 -right-2 bg-amber-400 w-5 h-5 flex justify-center items-center rounded-full'>2</span> */}
                         </li>
                     </ul>
                     <div className="dropdown dropdown-end">

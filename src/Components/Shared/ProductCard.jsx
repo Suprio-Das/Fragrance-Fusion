@@ -20,6 +20,11 @@ const ProductCard = () => {
             </div>
             <h1 className="text-xl text-center my-2">Vampire Blood</h1>
             <p className="text-lg font-semibold text-center">$49.99 <strike className="font-light ms-2">$69.99</strike></p>
+            {/* Product Actions */}
+            <div>
+                <button>Add To Cart</button>
+                <button>Buy Now</button>
+            </div>
         </div>
     );
 };

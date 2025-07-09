@@ -26,4 +26,6 @@
     background-color: black;
     color: white;
     border: none;
+    transition: ease-in-out;
+    transition-duration: 350ms;
 }

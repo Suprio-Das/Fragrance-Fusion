@@ -23,7 +23,7 @@ const ProductCard = () => {
             {/* Product Actions */}
             <div className="grid grid-cols-2 border-1 my-3">
                 <button className="btn border-r-1 border-r-black rounded-none product-action-btn">Add To Cart</button>
-                <button className="btn product-action-btn">Buy Now</button>
+                <button className="btn product-action-btn rounded-none">Buy Now</button>
             </div>
         </div>
     );

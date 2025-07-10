@@ -12,7 +12,7 @@ const Home = () => {
             <section className="my-11">
                 <h1 className="text-2xl uppercase text-center">Client Selected</h1>
                 <h1 className="lg:text-5xl text-3xl font-bold uppercase text-center my-3">Top product</h1>
-                <div className="grid lg:grid-cols-3 grid-cols-1">
+                <div className="grid lg:grid-cols-3 grid-cols-1 justify-items-center">
 
                 </div>
             </section>

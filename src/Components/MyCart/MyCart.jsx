@@ -1,6 +1,6 @@
 const MyCart = () => {
     return (
-        <div>
+        <div className="w-[94%] mx-auto">
             <h1>My cart component created.</h1>
         </div>
     );

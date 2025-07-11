@@ -4,6 +4,7 @@ import Home from "../Home/Home";
 import Mens from "../Perfumes/Mens";
 import Womens from "../Perfumes/Womens";
 import Brands from "../Brands/Brands";
+import MyCart from "../MyCart/MyCart";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: '/brands',
                 element: <Brands></Brands>
+            },
+            {
+                path: '/mycart',
+                element: <MyCart></MyCart>
             }
         ]
     }

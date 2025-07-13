@@ -7,9 +7,10 @@ const MyCartTable = () => {
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Name</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
                         </tr>
                     </thead>
                     <tbody>

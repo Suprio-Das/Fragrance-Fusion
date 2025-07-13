@@ -19,6 +19,7 @@ const MyCartTable = () => {
                             <th>x</th>
                             <td>
                                 <img src='https://perfumeshop.com.bd/wp-content/uploads/2025/03/1000048584-1.png' alt="" className="w-24" />
+                                <h1>Dirham Silver Roll-On Perfume Oil - CPO 10ML by Ard Al Zaafaran</h1>
                             </td>
                             <td>Quality Control Specialist</td>
                             <td>Blue</td>

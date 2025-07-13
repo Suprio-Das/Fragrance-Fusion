@@ -17,7 +17,9 @@ const MyCartTable = () => {
                         {/* row 1 */}
                         <tr>
                             <th>x</th>
-                            <td>Cy Ganderton</td>
+                            <td>
+                                <img src='https://perfumeshop.com.bd/wp-content/uploads/2025/03/1000048584-1.png' alt="" className="w-24" />
+                            </td>
                             <td>Quality Control Specialist</td>
                             <td>Blue</td>
                         </tr>

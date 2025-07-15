@@ -1,4 +1,7 @@
+import { useState } from "react";
+
 const MyCartTable = () => {
+    const [quantity, setQuantity] = useState(1);
     return (
         <div>
             <div className="overflow-x-auto">
@@ -25,7 +28,7 @@ const MyCartTable = () => {
                             <td>
                                 <div className="join join-vertical lg:join-horizontal">
                                     <button className="btn join-item text-lg btn-sm hover:bg-black hover:text-white">-</button>
-                                    <input className="input input-sm join-item w-11 text-center border-1 focus:outline-0 focus:border-gray-400" defaultValue='1'></input>
+                                    <input className="input input-sm join-item w-11 text-center border-1 focus:outline-0 focus:border-gray-400" defaultValue='1' name="quantity"></input>
                                     <button className="btn join-item text-lg btn-sm hover:bg-black hover:text-white">+</button>
                                 </div>
                             </td>

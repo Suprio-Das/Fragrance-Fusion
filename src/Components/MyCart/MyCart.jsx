@@ -2,8 +2,8 @@ import MyCartTable from "./MyCartTable";
 
 const MyCart = () => {
     return (
-        <div className="w-[94%] mx-auto">
-            <div className="grid lg:grid-cols-5 grid-cols-1">
+        <div className="w-[98%] mx-auto">
+            <div className="grid lg:grid-cols-5 grid-cols-1 gap-5 justify-items-center">
                 {/* Product Section */}
                 <div className="col-span-3">
                     <MyCartTable></MyCartTable>

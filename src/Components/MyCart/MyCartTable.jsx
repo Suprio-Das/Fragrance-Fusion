@@ -24,9 +24,9 @@ const MyCartTable = () => {
                             <td>400.00</td>
                             <td>
                                 <div className="join join-vertical lg:join-horizontal">
-                                    <button className="btn join-item text-lg">-</button>
-                                    <input className="input join-item w-11 text-center border-1 focus:outline-0 focus:border-gray-400"></input>
-                                    <button className="btn join-item text-lg">+</button>
+                                    <button className="btn join-item text-lg btn-sm">-</button>
+                                    <input className="input input-sm join-item w-11 text-center border-1 focus:outline-0 focus:border-gray-400"></input>
+                                    <button className="btn join-item text-lg btn-sm">+</button>
                                 </div>
                             </td>
                             <td>

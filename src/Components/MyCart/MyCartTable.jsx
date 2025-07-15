@@ -29,9 +29,7 @@ const MyCartTable = () => {
                                     <button className="btn join-item text-lg btn-sm hover:bg-black hover:text-white">+</button>
                                 </div>
                             </td>
-                            <td>
-
-                            </td>
+                            <td>400.00</td>
                         </tr>
                     </tbody>
                 </table>

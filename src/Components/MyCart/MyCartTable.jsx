@@ -16,7 +16,7 @@ const MyCartTable = () => {
                     <tbody>
                         {/* row 1 */}
                         <tr>
-                            <th className="text-lg">x</th>
+                            <th className="text-lg cursor-pointer">x</th>
                             <td className="flex justify-center items-center">
                                 <img src='https://perfumeshop.com.bd/wp-content/uploads/2025/03/1000048584-1.png' alt="" className="w-24" />
                                 <h1 className="font-semibold">Dirham Silver Roll-On Perfume Oil - CPO 10ML by Ard Al Zaafaran</h1>

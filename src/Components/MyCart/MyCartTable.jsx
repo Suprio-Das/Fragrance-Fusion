@@ -10,6 +10,14 @@ const MyCartTable = () => {
     const handleDecrement = () => {
         setQuantity(prev => (prev > 1 ? prev - 1 : 1));
     };
+
+    const handleInputChange = (e) => {
+        const value = e.target.value;
+        // Allow only positive integers
+        if (value === '' || (/^\d+$/.test(value) && parseInt(value) > 0)) {
+            setQuantity(value === '' ? 1 : parseInt(value));
+        }
+    };
     return (
         <div>
             <div className="overflow-x-auto">

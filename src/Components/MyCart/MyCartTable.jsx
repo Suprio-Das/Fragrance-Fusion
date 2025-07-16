@@ -6,6 +6,10 @@ const MyCartTable = () => {
     const handleIncrement = () => {
         setQuantity(prev => prev + 1);
     };
+
+    const handleDecrement = () => {
+        setQuantity(prev => (prev > 1 ? prev - 1 : 1));
+    };
     return (
         <div>
             <div className="overflow-x-auto">

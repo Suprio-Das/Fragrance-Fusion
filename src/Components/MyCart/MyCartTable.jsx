@@ -2,14 +2,10 @@ import { useState } from "react";
 
 const MyCartTable = () => {
     const [quantity, setQuantity] = useState(1);
-    const handleDecrement = () => {
-        if (quantity == 0) {
-            return;
-        }
-        else {
-            setQuantity(prev => prev - 1);
-        }
-    }
+
+    const handleIncrement = () => {
+        setQuantity(prev => prev + 1);
+    };
     return (
         <div>
             <div className="overflow-x-auto">

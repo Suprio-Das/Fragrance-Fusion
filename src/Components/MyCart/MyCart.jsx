@@ -14,7 +14,7 @@ const MyCart = () => {
                 <div className="lg:col-span-2 w-full">
                     <div className="border-2 border-gray-400 p-3">
                         <h1 className="lg:text-2xl font-semibold">Cart Totals</h1>
-                        <div className="flex justify-between items-center">
+                        <div className="flex justify-between items-center mt-8">
                             <p className="text-xl font-semibold">Subtotal</p>
                             <p>950.0Tk</p>
                         </div>

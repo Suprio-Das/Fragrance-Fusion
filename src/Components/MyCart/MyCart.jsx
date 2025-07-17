@@ -28,10 +28,11 @@ const MyCart = () => {
                             </div>
                         </div>
                         <hr className="border-gray-300 my-3" />
-                        <div className="flex justify-between items-center mt-8">
+                        <div className="flex justify-between items-center">
                             <p className="text-xl font-semibold">Total</p>
                             <p className="font-semibold">1050.00Tk</p>
                         </div>
+                        <button className="btn w-full mt-6 mb-3">Proceed to Checkout</button>
                     </div>
                 </div>
             </div>

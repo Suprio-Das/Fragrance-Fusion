@@ -32,7 +32,7 @@ const MyCart = () => {
                             <p className="text-xl font-semibold">Total</p>
                             <p className="font-semibold">1050.00Tk</p>
                         </div>
-                        <button className="btn w-full mt-6 mb-3">Proceed to Checkout</button>
+                        <button className="btn w-full mt-6 mb-3 primary-btn">Proceed to Checkout</button>
                     </div>
                 </div>
             </div>

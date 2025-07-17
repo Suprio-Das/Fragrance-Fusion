@@ -28,6 +28,10 @@ const MyCart = () => {
                             </div>
                         </div>
                         <hr className="border-gray-300 my-3" />
+                        <div className="flex justify-between items-center mt-8">
+                            <p className="text-xl font-semibold">Total</p>
+                            <p className="font-semibold">1050.00Tk</p>
+                        </div>
                     </div>
                 </div>
             </div>

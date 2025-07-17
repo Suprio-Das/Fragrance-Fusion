@@ -14,6 +14,7 @@ const MyCart = () => {
                 <div className="lg:col-span-2">
                     <div className="border-2 border-gray-400 p-3">
                         <h1 className="lg:text-2xl font-semibold">Cart Totals</h1>
+                        <p className="text-xl font-semibold">Subtotal</p>
                     </div>
                 </div>
             </div>

@@ -49,6 +49,10 @@ const MyCart = () => {
                                             <label>City / Town<sup className="text-red-500 text-sm">*</sup></label>
                                             <input type="text" className="input" placeholder="Type here" />
                                         </div>
+                                        <div className="mt-2">
+                                            <label>Local Address<sup className="text-red-500 text-sm">*</sup></label>
+                                            <input type="text" className="input" placeholder="Type here" />
+                                        </div>
                                     </form>
                                 </div>
                             </div>

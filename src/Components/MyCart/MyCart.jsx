@@ -22,7 +22,7 @@ const MyCart = () => {
                         <div className="flex justify-between items-center">
                             <p className="text-xl font-semibold">Shipping</p>
                             <div>
-                                <p className="text-gray-500">Flat rate: <span className="text-black">100.00Tk</span></p>
+                                <p className="text-gray-500">Flat rate: <span className="text-black font-semibold">100.00Tk</span></p>
                                 <p className="text-gray-500">Shipping to Dhaka</p>
                                 <p className="text-blue-500 font-semibold cursor-pointer">Change Address</p>
                             </div>

@@ -12,7 +12,7 @@ const MyCart = () => {
                 </div>
                 {/* Price and Checkout section */}
                 <div className="lg:col-span-2">
-                    <div className="border-2 border-gray-400">
+                    <div className="border-2 border-gray-400 p-3">
                         <h1 className="lg:text-2xl font-semibold">Cart Totals</h1>
                     </div>
                 </div>

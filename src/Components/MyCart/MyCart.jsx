@@ -27,6 +27,7 @@ const MyCart = () => {
                                 <p className="text-blue-500 font-semibold cursor-pointer">Change Address</p>
                             </div>
                         </div>
+                        <hr className="border-gray-300 my-3" />
                     </div>
                 </div>
             </div>

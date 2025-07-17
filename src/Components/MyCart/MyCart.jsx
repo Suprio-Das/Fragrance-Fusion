@@ -18,6 +18,7 @@ const MyCart = () => {
                             <p className="text-xl font-semibold">Subtotal</p>
                             <p>950.0Tk</p>
                         </div>
+                        <hr className="border-gray-300 my-3" />
                     </div>
                 </div>
             </div>

@@ -53,6 +53,7 @@ const MyCart = () => {
                                             <label>Local Address<sup className="text-red-500 text-sm">*</sup></label>
                                             <input type="text" className="input" placeholder="Type here" />
                                         </div>
+                                        <button className="btn primary-btn my-2">Update</button>
                                     </form>
                                 </div>
                             </div>

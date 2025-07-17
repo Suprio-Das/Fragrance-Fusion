@@ -24,7 +24,7 @@ const MyCart = () => {
                             <div>
                                 <p className="text-gray-500">Flat rate: <span className="text-black">100.00Tk</span></p>
                                 <p className="text-gray-500">Shipping to Dhaka</p>
-                                <p>Change Address</p>
+                                <p className="text-blue-500 font-semibold">Change Address</p>
                             </div>
                         </div>
                     </div>

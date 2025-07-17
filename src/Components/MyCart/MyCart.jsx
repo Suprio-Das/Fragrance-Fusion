@@ -21,10 +21,19 @@ const MyCart = () => {
                         <hr className="border-gray-300 my-3" />
                         <div className="flex justify-between items-center">
                             <p className="text-xl font-semibold">Shipping</p>
-                            <div>
+                            <div className="text-right">
                                 <p className="text-gray-500">Flat rate: <span className="text-black font-semibold">100.00Tk</span></p>
                                 <p className="text-gray-500">Shipping to Dhaka</p>
                                 <p className="text-blue-500 font-semibold cursor-pointer">Change Address</p>
+                                {/* Change Address */}
+                                <div className="text-right">
+                                    <form action="">
+                                        <label>Country / Region</label>
+                                        <select defaultValue="Select Country" className="select">
+                                            <option>Bangladesh</option>
+                                        </select>
+                                    </form>
+                                </div>
                             </div>
                         </div>
                         <hr className="border-gray-300 my-3" />

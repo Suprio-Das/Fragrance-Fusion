@@ -19,6 +19,14 @@ const MyCart = () => {
                             <p>950.0Tk</p>
                         </div>
                         <hr className="border-gray-300 my-3" />
+                        <div className="flex justify-between items-center">
+                            <p className="text-xl font-semibold">Shipping</p>
+                            <div>
+                                <p>Flat rate: 100.00Tk</p>
+                                <p>Shipping to Dhaka</p>
+                                <p>Change Address</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

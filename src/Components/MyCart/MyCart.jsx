@@ -4,7 +4,6 @@ import { FaCartShopping } from "react-icons/fa6"
 
 const MyCart = () => {
     const districts = BdDistricts.districts;
-    console.log(districts);
     return (
         <div className="w-[98%] mx-auto">
             <h1 className="lg:text-4xl text-xl font-bold my-5 flex items-center justify-center gap-2">My Cart <FaCartShopping></FaCartShopping> </h1>
@@ -39,8 +38,11 @@ const MyCart = () => {
                                         </div>
                                         <div className="mt-2">
                                             <label>District<sup className="text-red-500 text-sm">*</sup></label>
-                                            <select defaultValue="Select Country" className="select">
-                                                <option>Bangladesh</option>
+                                            <select defaultValue="District" className="select">
+                                                <option disabled={true}>Select District</option>
+                                                {
+                                                    districts.map(district => <option key={district.id}>{district.name}</option>)
+                                                }
                                             </select>
                                         </div>
                                     </form>

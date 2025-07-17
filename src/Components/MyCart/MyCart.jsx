@@ -4,6 +4,10 @@ import { FaCartShopping } from "react-icons/fa6"
 
 const MyCart = () => {
     const districts = BdDistricts.districts;
+    // Address Controller
+    const updateAddress = () => {
+        console.log("Update Address Function clicked!!")
+    }
     return (
         <div className="w-[98%] mx-auto">
             <h1 className="lg:text-4xl text-xl font-bold my-5 flex items-center justify-center gap-2">My Cart <FaCartShopping></FaCartShopping> </h1>
@@ -26,9 +30,9 @@ const MyCart = () => {
                             <div className="text-right">
                                 <p className="text-gray-500">Flat rate: <span className="text-black font-semibold">100.00Tk</span></p>
                                 <p className="text-gray-500">Shipping to Dhaka</p>
-                                <p className="text-blue-500 font-semibold cursor-pointer">Change Address</p>
+                                <p className="text-blue-500 font-semibold cursor-pointer" onClick={updateAddress}>Change Address</p>
                                 {/* Change Address */}
-                                <div className="text-right">
+                                <div className="text-right address">
                                     <form action="">
                                         <div className="mt-2">
                                             <label>Country / Region<sup className="text-red-500 text-sm">*</sup></label>

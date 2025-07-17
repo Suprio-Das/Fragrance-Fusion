@@ -28,10 +28,12 @@ const MyCart = () => {
                                 {/* Change Address */}
                                 <div className="text-right">
                                     <form action="">
-                                        <label>Country / Region</label>
-                                        <select defaultValue="Select Country" className="select">
-                                            <option>Bangladesh</option>
-                                        </select>
+                                        <div>
+                                            <label>Country / Region<sup className="text-red-500 text-sm">*</sup></label>
+                                            <select defaultValue="Select Country" className="select">
+                                                <option>Bangladesh</option>
+                                            </select>
+                                        </div>
                                     </form>
                                 </div>
                             </div>

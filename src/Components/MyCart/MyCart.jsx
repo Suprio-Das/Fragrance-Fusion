@@ -11,7 +11,7 @@ const MyCart = () => {
         setShowAddress(!showAddress);
     }
     const updateAddress = () => {
-        console.log("Update Address Function clicked!!");
+        setShowAddress(!showAddress);
     }
     return (
         <div className="w-[98%] mx-auto">

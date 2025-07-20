@@ -1,6 +1,10 @@
+import PageTitle from "../Shared/PageTitle";
+
 const Mens = () => {
+    const title = "Mens";
     return (
         <div className="w-[98%] mx-auto">
+            <PageTitle title={title}></PageTitle>
             <div className="grid lg:grid-cols-5 grid-cols-1">
                 {/* Range Section */}
                 <div className="col-span-1">

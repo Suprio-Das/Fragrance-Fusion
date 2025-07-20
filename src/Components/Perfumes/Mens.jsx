@@ -1,7 +1,7 @@
 const Mens = () => {
     return (
-        <div>
-            This is Mens Section.
+        <div className="w-[98%] mx-auto">
+            <h1>Mens Product Section.</h1>
         </div>
     );
 };

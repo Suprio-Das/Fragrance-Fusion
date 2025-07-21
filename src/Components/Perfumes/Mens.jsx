@@ -1,4 +1,5 @@
 import PageTitle from "../Shared/PageTitle";
+import ProductCard from "../Shared/ProductCard";
 
 const Mens = () => {
     const title = "Mens";
@@ -13,7 +14,7 @@ const Mens = () => {
                     </div>
                     {/* Product Section */}
                     <div className="col-span-4">
-                        <h1>Product Section.</h1>
+                        <ProductCard></ProductCard>
                     </div>
                 </div>
             </div>

@@ -14,7 +14,7 @@ const Mens = () => {
                     </div>
                     {/* Product Section */}
                     <div className="col-span-4">
-                        <ProductCard></ProductCard>
+                        <ProductCard button1="Add to Cart" button2="View"></ProductCard>
                     </div>
                 </div>
             </div>

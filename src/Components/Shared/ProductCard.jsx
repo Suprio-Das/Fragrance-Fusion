@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CiHeart } from "react-icons/ci";
 import { IoMdHeart } from "react-icons/io";
-const ProductCard = () => {
+const ProductCard = ({ button1, button2 }) => {
     const [favStatus, setFavStatus] = useState(false);
     const AddToFavourite = () => {
         setFavStatus(!favStatus);
@@ -22,8 +22,8 @@ const ProductCard = () => {
             <p className="text-lg font-semibold text-center">$49.99 <strike className="font-light ms-2">$69.99</strike></p>
             {/* Product Actions */}
             <div className="grid grid-cols-2 border-1 my-3">
-                <button className="btn border-r-1 border-r-black rounded-none product-action-btn">Add To Cart</button>
-                <button className="btn product-action-btn rounded-none">Buy Now</button>
+                <button className="btn border-r-1 border-r-black rounded-none product-action-btn">{button1}</button>
+                <button className="btn product-action-btn rounded-none">{button2}</button>
             </div>
         </div>
     );

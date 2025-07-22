@@ -1,4 +1,4 @@
-import Logo from '../../assets/fragrance_fusion.png'
+import Logo from '../../assets/fragrance_fusion_favicon.png'
 
 const Footer = () => {
     return (
@@ -27,7 +27,7 @@ const Footer = () => {
             </footer>
             <footer className="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4">
                 <aside className="grid-flow-col items-center">
-                    <img src={Logo} alt="Fragrance Fusion Logo" />
+                    <img src={Logo} alt="Fragrance Fusion Logo" className='w-18' />
                     <p>
                         Fragrance Fusion
                         <br />

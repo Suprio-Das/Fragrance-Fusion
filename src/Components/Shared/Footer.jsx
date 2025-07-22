@@ -29,7 +29,7 @@ const Footer = () => {
                 <aside className="grid-flow-col items-center">
                     <img src={Logo} alt="Fragrance Fusion Logo" className='w-18' />
                     <p>
-                        Fragrance Fusion
+                        <span className='text-2xl font-semibold'>Fragrance Fusion</span>
                         <br />
                         Providing authentic perfumes since 1992
                     </p>

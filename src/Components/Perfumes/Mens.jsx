@@ -7,7 +7,7 @@ const Mens = () => {
         <div>
             <PageTitle title={title}></PageTitle>
             <div className="w-[98%] mx-auto">
-                <div className="grid lg:grid-cols-5 grid-cols-1">
+                <div className="grid lg:grid-cols-5 grid-cols-1 my-5">
                     {/* Range Section */}
                     <div className="col-span-1">
                         <h1>Product Range Section.</h1>
